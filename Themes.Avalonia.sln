@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImeSense.Themes.Avalonia.SampleApp", "src\ImeSense.Themes.Avalonia.SampleApp\ImeSense.Themes.Avalonia.SampleApp.csproj", "{DAEE8606-81F7-4C95-8061-D6F023A58C26}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D41649E7-EF74-445A-8677-3E51136D6E1C}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		Directory.Build.props = Directory.Build.props
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImeSense.Themes.Avalonia.Simple", "src\ImeSense.Themes.Avalonia.Simple\ImeSense.Themes.Avalonia.Simple.csproj", "{DF63C39E-B8D3-411F-91B5-78192A04DD5C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DAEE8606-81F7-4C95-8061-D6F023A58C26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAEE8606-81F7-4C95-8061-D6F023A58C26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAEE8606-81F7-4C95-8061-D6F023A58C26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAEE8606-81F7-4C95-8061-D6F023A58C26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF63C39E-B8D3-411F-91B5-78192A04DD5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF63C39E-B8D3-411F-91B5-78192A04DD5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF63C39E-B8D3-411F-91B5-78192A04DD5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF63C39E-B8D3-411F-91B5-78192A04DD5C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA0C3BFE-2DDE-47AB-8F27-D2414C0C7D67}
+	EndGlobalSection
+EndGlobal
