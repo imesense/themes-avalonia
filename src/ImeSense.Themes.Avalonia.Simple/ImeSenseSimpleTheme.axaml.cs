@@ -11,4 +11,9 @@ public class ImeSenseSimpleTheme : Styles {
     public ImeSenseSimpleTheme(IServiceProvider? serviceProvider = null) {
         AvaloniaXamlLoader.Load(serviceProvider, this);
     }
+
+#if DEBUG
+    public ImeSenseSimpleTheme() {
+    }
+#endif
 }
